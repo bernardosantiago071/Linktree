@@ -34,6 +34,7 @@ body {
 
   /*background: color image repeat position/size */
   background: var(--bg-url)  no-repeat center/cover;
+  height: 100vh;
 }
 
 body * {
@@ -168,3 +169,13 @@ footer {
  text-align: center;
  font-size: 14px;
 } 
+
+/* media queries */
+@media (max-width: 768px) {
+ :root {
+  --bg-url: url(./assets/aeb28db0c7a8153bce8fb7f6f6f43514.jpg);
+ }
+ .light {
+  --bg-url: url(./assets/1270597.jpg);
+ }
+}
